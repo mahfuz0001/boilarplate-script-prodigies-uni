@@ -1,7 +1,7 @@
-import Widget from "@/components/Widget";
+import MyWidget from "@/components/MyWidget";
 
 const WidgetPage = () => {
-  return <Widget />;
+  return <MyWidget />;
 };
 
 export default WidgetPage;
