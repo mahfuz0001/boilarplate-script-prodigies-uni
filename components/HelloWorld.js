@@ -1,4 +1,3 @@
-// components/HelloWorld.js
 import React from "react";
 
 const HelloWorld = () => {
