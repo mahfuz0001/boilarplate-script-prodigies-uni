@@ -3,11 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Embedded Widget</title>
-    <script
-      src="https://boilarplate-script-prodigies-uni.vercel.app/widget-script.ts"
-      defer
-    ></script>
+    <script src="http://localhost:3000/api/widget" defer></script>
+    <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div id="widget-container"></div>
+    <!-- <script>
+      // Create widget container
+      var container = document.getElementById("widget-container");
+
+      // Load widget script
+      var script = document.createElement("script");
+      script.src = "http://localhost:3000/api/widget";
+      document.body.appendChild(script);
+    </script> -->
+  </body>
 </html>
